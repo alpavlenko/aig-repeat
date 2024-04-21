@@ -5,9 +5,9 @@
 ## Installation
 
 ```shell script
-git clone git@github.com:alpavlenko/aig-repeat.git
-pip install -r requirements.txt
+git clone git@github.com:alpavlenko/aig-repeat.git --recurse-submodules
 ```
+[comment]: <> (pip install -r requirements.txt)
 
 To use simplify(...) method, compile ABC:
 
